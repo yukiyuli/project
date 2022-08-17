@@ -14,6 +14,11 @@ html {
     line-height: 1.8;
 }
 
+.about-section,.portfolio-section ,.contact-section,.price-section,.bottom-section{
+  padding-top: 64px;
+  padding-bottom:64px;
+}
+
 /* Create a Parallax Effect */
   .bgimg-1,
   .bgimg-2,
@@ -25,6 +30,7 @@ html {
         background-size: cover;
 }
 
+
 .bgimg-2 ,.bgimg-3 ,.bgimg-4{
       position: relative;
 }
@@ -33,23 +39,33 @@ img{
   vertical-align:middle;
 }
 
+p{
+  margin-bottom: 0px;
+}
+
 
 /* Navigation Bar */
 
-.navbar {
-  padding: 0 0 2rem;
+.navbar{
+  padding-top:0;
+  padding-bottom: 0;
 }
 
-.navbar-brand {
-  font-size: 2.5rem;
+.pe-3{
+  padding-right: 0px!important;
 }
+
+.navbar-toggler{
+  margin-top: 5px;
+}
+
 
 .nav-item {
-  padding: 0 8px;
+  padding: 0 6px;
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 17px;
 }
 
 
@@ -81,12 +97,9 @@ letter-spacing:4px
 }
 
 
-/* about section */
 
-.about-section,.portfolio-section ,.contact-section,.price-section,.bottom-section{
-    padding-top: 64px;
-    padding-bottom:64px;
-}
+
+/* about section */
 
 h3{
   text-align: center;
@@ -101,10 +114,14 @@ em{
 
 
 .myphoto{
+  padding-top: 10px;
   border-radius:4px;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
+.myphoto:hover{
+  opacity: 1;
+}
 
 .left{
   text-align: center;
@@ -113,7 +130,7 @@ em{
 
 
 .name{
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 .right{
@@ -166,16 +183,13 @@ em{
   padding-bottom:64px;
 }
 
-.portfolio-section:after,.portfolio-section:before ,.price-section:after,.price-section:before ,.contact-section:after,.contact-section:before{
-content:"";
-display:table;
-clear:both;
-}
-
 .myphoto{
   border-radius: 100%;
 }
 
+.picture-info{
+  padding-bottom: 10px;
+}
 
 /* price section */
 
@@ -228,10 +242,15 @@ h4{
 /* contact section */
 
 .contact-detail{
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.contact-message{
+  padding-bottom: 15px;
 }
 
 .contact-button{
+  padding: 10px;
   background-color: #000;
   color:#fff;
 }
@@ -245,6 +264,7 @@ h4{
 /* bottom */
 
 .bottom-section{
+  opacity: 0.75;
   background-color: #000;
   bottom:0;
   width:100%;
@@ -253,14 +273,35 @@ h4{
   z-index:1;
 }
 
+.bottom-section:hover{
+  opacity: 1;
+}
+
 .go-button{
-  background-color: #c0c0c0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #f1f1f1;
   color:#000;
 }
 
 .go-button:hover{
-  background-color: #777;
-  color:#000;
+  background-color: #C0C0C0;
 }
 
+.footer-link {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 18px;
+  margin: 5px 5px;
+}
+
+.footer-link:hover{
+  color: #C0C0C0;
+}
+
+.copyright{
+  font-size: 14px;
+  padding-top: 10px;
+  color: #f1f1f1;
+}
 
