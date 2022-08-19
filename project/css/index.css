@@ -4,63 +4,69 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body,
 html {
-    height: 100%;
-    color: #777;
-    line-height: 1.8;
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
 }
 
-.about-section,.portfolio-section ,.contact-section,.price-section,.bottom-section{
+.about-section,
+.portfolio-section,
+.contact-section,
+.price-section,
+.bottom-section {
   padding-top: 64px;
-  padding-bottom:64px;
+  padding-bottom: 64px;
 }
 
 
 /* Create a Parallax Effect */
-  .bgimg-1,
-  .bgimg-2,
-  .bgimg-3,
-  .bgimg-4 {
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
-.bgimg-2 ,.bgimg-3 ,.bgimg-4{
-      position: relative;
+.bgimg-2,
+.bgimg-3,
+.bgimg-4 {
+  position: relative;
 }
 
-img{
-  vertical-align:middle;
+img {
+  vertical-align: middle;
 }
 
-p{
+p {
   margin-bottom: 0px;
 }
 
 
 /* Navigation Bar */
 
-.navbar{
-  padding-top:0;
+.navbar {
+  padding-top: 0;
   padding-bottom: 0;
 }
 
-.pe-3{
-  padding-right: 0px!important;
+.pe-3 {
+  padding-right: 0px !important;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   margin-top: 5px;
 }
 
-.btn-close{
+.btn-close {
   margin-left: 90%;
 }
 
@@ -73,31 +79,31 @@ p{
 }
 
 
-h1{
+h1 {
   font-size: 5rem;
   color: #fff;
   margin: 20px auto;
   font-family: 'Sacramento', cursive;
-  letter-spacing:4px
+  letter-spacing: 4px
 }
 
 h2 {
-color: #fff;
-font-size: 1.5rem;
-font-weight: normal;
-padding-bottom: 10px;
-letter-spacing:4px
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  letter-spacing: 4px
 }
 
 
 .title {
-  position:absolute;
+  position: absolute;
   top: 50%;
-  left:50%;
-  transform:translate(-50%,-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  display:inline-block;
-  width:auto;
+  display: inline-block;
+  width: auto;
 }
 
 
@@ -105,11 +111,11 @@ letter-spacing:4px
 
 /* about section */
 
-h3{
+h3 {
   text-align: center;
 }
 
-em{
+em {
   padding-top: 10px;
   padding-bottom: 10px;
   display: block;
@@ -117,178 +123,181 @@ em{
 }
 
 
-.myphoto{
+.myphoto {
   padding-top: 10px;
-  border-radius:4px;
+  border-radius: 4px;
   opacity: 0.8;
 }
 
-.myphoto:hover{
+.myphoto:hover {
   opacity: 1;
 }
 
-.left{
+.left {
   text-align: center;
   padding-top: 30px;
 }
 
 
-.name{
+.name {
   margin-right: 15px;
 }
 
-.right{
+.right {
   padding-top: 30px;
 }
 
-.right-title{
+.right-title {
   font-size: 20px;
   text-align: center;
 }
 
-.skill-name{
-  letter-spacing:4px;
+.skill-name {
+  letter-spacing: 4px;
   margin-top: 10px;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
-.grey{
-  color:#000;
-  background-color:#f1f1f1;
+.grey {
+  color: #000;
+  background-color: #f1f1f1;
 }
 
 
-.precentage{
-  color:#fff;
-  background-color:#616161;
-  padding:2px 6px;
+.precentage {
+  color: #fff;
+  background-color: #616161;
+  padding: 2px 6px;
   text-align: center;
 }
 
 
 /* portfolio */
 
-.subtitle1,.subtitle2,.subtitle3{
-  font-size:32px;
+.subtitle1,
+.subtitle2,
+.subtitle3 {
+  font-size: 32px;
   color: #fff;
-  letter-spacing:8px;
+  letter-spacing: 8px;
 }
 
-.display-middle{
+.display-middle {
   text-align: center;
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.portfolio-section, .contact-section{
-  padding-top:64px;
-  padding-bottom:64px;
+.portfolio-section,
+.contact-section {
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
-.myphoto{
+.myphoto {
   border-radius: 100%;
 }
 
-.picture-info{
+.picture-info {
   padding-bottom: 10px;
 }
 
 /* price section */
 
-.card-header{
-  color:#fff;
+.card-header {
+  color: #fff;
   background-color: #000;
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-h4{
+h4 {
   font-size: 22px;
   margin-bottom: 0;
 }
 
-.list-group-item{
+.list-group-item {
   margin-top: 5px;
   font-family: "Montserrat", sans-serif;
   color: #777;
 }
 
 
-.sign-button{
+.sign-button {
   font-size: 18px;
   background-color: #fff;
 }
 
-.sign-button:hover{
-  color:#fff;
+.sign-button:hover {
+  color: #fff;
   background-color: #000;
 }
 
-.monthprice{
+.monthprice {
   font-family: "Montserrat", sans-serif;
   color: #616161;
   font-size: 28px;
   margin: 0 0;
 }
 
-.month{
+.month {
   color: #C0C0C0;
 }
 
-.price-title{
+.price-title {
   margin-bottom: 35px;
 }
 
 
 /* contact section */
 
-.contact-detail{
+.contact-detail {
   padding-bottom: 20px;
 }
 
-.contact-message{
+.contact-message {
   padding-bottom: 15px;
 }
 
-.contact-button{
+.contact-button {
   padding: 10px;
   background-color: #000;
-  color:#fff;
+  color: #fff;
 }
 
-.contact-button:hover{
+.contact-button:hover {
   background-color: #C0C0C0;
-  color:#000;
+  color: #000;
 }
 
 
 /* bottom */
 
-.bottom-section{
+.bottom-section {
   opacity: 0.75;
   background-color: #000;
-  bottom:0;
-  width:100%;
+  bottom: 0;
+  width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
-  z-index:1;
+  z-index: 1;
 }
 
-.bottom-section:hover{
+.bottom-section:hover {
   opacity: 1;
 }
 
-.go-button{
+.go-button {
   margin-top: 10px;
   margin-bottom: 20px;
   background-color: #f1f1f1;
-  color:#000;
+  color: #000;
 }
 
-.go-button:hover{
+.go-button:hover {
   background-color: #C0C0C0;
 }
 
@@ -299,13 +308,12 @@ h4{
   margin: 5px 5px;
 }
 
-.footer-link:hover{
+.footer-link:hover {
   color: #C0C0C0;
 }
 
-.copyright{
+.copyright {
   font-size: 14px;
   padding-top: 10px;
   color: #f1f1f1;
 }
-
